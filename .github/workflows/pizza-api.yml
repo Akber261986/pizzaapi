@@ -26,7 +26,7 @@ jobs:
         cp main.py hf/
         cp pyproject.toml hf/
         cp uv.lock hf/
-        cp Dockerfile.production hf/
+        cp Dockerfile hf/
 
         cd hf
         git add .
